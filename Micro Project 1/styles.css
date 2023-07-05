@@ -1,0 +1,135 @@
+body{
+    margin: 0rem 0rem 0rem 0rem;
+}
+.row1{
+    top: -1px;
+    background-color: #FFCD9E;
+    display: flex;
+}
+.container{
+    width: 100%;
+    top:-1rem;
+}
+
+.txt1{
+    color: #282828;
+    font-size: 2.25rem;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    justify-self: center;
+    min-height:3rem;
+}
+
+.txt2{
+    color: #484848;
+    font-size: 1.25rem;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    justify-self: center;
+    display:block;
+    min-height:6rem;
+}
+
+.txt3{
+    color: #282828;
+    font-size: 1.25rem;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 160%;
+    display:block;
+    min-height:3rem;
+}
+
+.txt4{
+    color: #FFF;
+    font-size: 1rem;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    width:489px;
+}
+.txt4c{
+    justify-self:center;
+    padding-left:39px;
+}
+.col2{
+    height: 33rem;
+    padding: 0Rem 3rem 0rem 0rem;
+}
+
+.col1{
+    width: 90rem;
+    display:grid;
+}
+
+.frm1{
+    width:489px;
+    position:relative;
+    top:0em !important;
+    left:0em;
+    justify-self:center;
+}
+
+.inp-but{
+    display:inline-block;
+    color: #888888;
+    font-size: 1.25rem;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    border: 0.2rem solid black;
+    border-radius: 0.5rem;
+    min-height:43px;
+}
+
+.butn{
+    color: #FFF;
+    background-color:black;
+    text-align: center;
+    font-size: 1.25rem;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    min-height:49px;
+    width:161px;
+    padding-right:1px;
+    border-radius: 0.5rem;
+}
+p{
+    margin-bottom: 0px;
+    padding-bottom:0px;
+}
+.footer-row2{
+    background-color:#282828;
+    width:100%;
+    display:flex;
+    color: #FFF;
+    text-align: right;
+    font-size: 1.25rem;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    padding: 0.6rem 0rem 0.6rem 0rem;
+    justify-content:center;
+}
+.footer-col1{
+    display:inline-block;
+    width:50%;
+    text-align:left;
+    width:545px;
+}
+
+.footer-col2{
+    display:inline-block;
+    width:50%;
+    width:545px;
+}
