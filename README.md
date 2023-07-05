@@ -1,4 +1,4 @@
-# Cuvette-Tech.github.io
+# Cuvette-Tech
 Cuvette-Tech
 
-#6monthsOfCodding
+#6monthsOfCoding
