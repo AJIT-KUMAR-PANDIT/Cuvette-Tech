@@ -222,7 +222,11 @@ form{
     font-weight: 700;
     line-height: 178.7%;
     letter-spacing: 0.0875rem;
-    display: flex;
+}
+
+.center-x-y{
+    text-align: center;
+    padding-top: 8.6%;
 }
 
 .but2{
@@ -349,3 +353,10 @@ pre{
     letter-spacing: 0.09375rem;
   }
 
+  .content {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }  
+    
