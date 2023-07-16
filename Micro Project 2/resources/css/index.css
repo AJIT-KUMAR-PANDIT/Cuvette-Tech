@@ -1,5 +1,6 @@
 *{
     margin: 0px 0px 0px 0px;
+    padding: 0px;
 }
 .header{
     width: 100vw;
@@ -46,7 +47,6 @@ form{
     height: 6vh;
     width: 21vw;
     border-radius: 100px;
-
 }
 .container1{
     display: flex;
@@ -83,6 +83,7 @@ form{
     font-style: normal;
     font-weight: 400;
     line-height: 178.7%;
+    margin-left: 3vw;
 }
 
 .container2{
@@ -272,12 +273,31 @@ pre{
 }
 
 .social{
-    position: -webkit-sticky;
     position: sticky;
-    top:3vh;
-    width: 3vh;
-    height: 3vh;
-    background-color: #D288FF;
-    top:4px;
-    left: 0px;
+  top: 130px;
+  float: left;
+  bottom: 100px;
+  left: 96.5%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 120px;
+  width: 49px;
+  height: 154px;
+  padding: 0;
 }
+
+.social a {
+    position: sticky;
+    cursor: pointer;
+  }
+  
+  .social img {
+    height: 50px;
+    width: 50px;
+  }
+  
+  .whatsapp {
+    border: 2px solid black;
+    border-radius: 7px;
+  }
+
