@@ -40,14 +40,43 @@ form{
     display: inline;
 }
 
-.sear-ch{
-    background-image: url("../img/search.svg");
-    background-repeat: no-repeat;
-    background-position: right;
-    height: 6vh;
-    width: 21vw;
-    border-radius: 100px;
-}
+.search-bar {
+    background: transparent;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+    max-width: 700px;
+  }
+  
+  .search-bar-text {
+    border-radius: 63px;
+    flex: 1;
+    outline: none;
+    border-style: none;
+    background: #fff;
+    height: 1vh;
+    width: 18vw;
+    padding: 24px 20px;
+  }
+  
+  ::placeholder {
+    color: #9f9f9f;
+    font-family: DM Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: bottom;
+    line-height: normal;
+  }
+  
+  .search-button {
+    background: transparent;
+    border-style: none;
+    padding-bottom: -10px;
+    margin-left: -50px;
+    cursor: pointer;
+  }
 .container1{
     display: flex;
 	flex-wrap: wrap;
@@ -193,6 +222,7 @@ form{
     font-weight: 700;
     line-height: 178.7%;
     letter-spacing: 0.0875rem;
+    display: flex;
 }
 
 .but2{
@@ -274,20 +304,22 @@ pre{
 
 .social{
     position: sticky;
-  top: 130px;
-  float: left;
-  bottom: 100px;
-  left: 96.5%;
-  display: flex;
-  flex-direction: column;
-  margin-top: 120px;
-  width: 49px;
-  height: 154px;
-  padding: 0;
+    top: 130px;
+    float: left;
+    bottom: 100px;
+    left: 96.5%;
+    display: flex;
+    flex-direction: column;
+    margin-top: -40vh;
+    width: 49px;
+    height: 154px;
+    padding: 0;
 }
 
 .social a {
     position: sticky;
+    margin: 0;
+    text-align: right;
     cursor: pointer;
   }
   
@@ -299,5 +331,21 @@ pre{
   .whatsapp {
     border: 2px solid black;
     border-radius: 7px;
+  }
+
+  .but{
+    border-radius: 0.5625rem;
+    background-color: #000;
+    height: 9vh;
+    width: 9vw; 
+    transform:translatex(611px) translatey(169px);
+     /*text  */
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.09375rem;
   }
 
