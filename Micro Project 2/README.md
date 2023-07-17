@@ -1,5 +1,5 @@
 
-# Cuvette Micro Project 1
+# Cuvette Micro Project 2
 
 THIS is the Link of Micro Project 2 https://cuvettetech.netlify.app/micro%20project%202/
 
