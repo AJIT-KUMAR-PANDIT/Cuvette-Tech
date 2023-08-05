@@ -85,6 +85,8 @@ z-index: 1;
 }
 
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover ,::-webkit-overflow-scrolling:touch{
   background: #b30000; 
 }
+
+,
