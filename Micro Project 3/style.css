@@ -15,6 +15,7 @@ align-self: center;
 border: 3px solid tomato;
 height: 80vh;
 overflow-y: scroll;
+-webkit-overflow-scrolling: touch;
 background-color: rgba(26, 36, 36, 0.927);
 flex-flow: row wrap;
 }
@@ -27,6 +28,7 @@ border: 3px solid tomato;
 width: 251px;
 height: 50%;
 overflow-y: scroll;
+-webkit-overflow-scrolling: touch;
 /* text-indent: -10px; */
 color: rgb(14, 13, 12);
 background-color: #fbb034;
@@ -85,7 +87,7 @@ z-index: 1;
 }
 
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover ,::-webkit-overflow-scrolling:touch{
+::-webkit-scrollbar-thumb:hover {
   background: #b30000; 
 }
 
