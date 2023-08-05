@@ -12,8 +12,8 @@ margin-bottom: 31px;
 display: flex;
 flex-wrap: wrap;
 border: 3px solid tomato;
-height: 70vh;
-overflow: scroll;
+height: 80vh;
+overflow-y: scroll;
 background-color: rgba(26, 36, 36, 0.927);
 flex-flow: row wrap;
 }
@@ -68,7 +68,11 @@ z-index: 1;
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: red; 
+  background: red;
+  background-image: url(scroll.png);
+  background-size: 21px; 
+  background-repeat: no-repeat;
+  background-position: center;
   border-radius: 10px;
 }
 
