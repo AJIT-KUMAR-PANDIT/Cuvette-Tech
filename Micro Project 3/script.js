@@ -1,8 +1,4 @@
 // Food Chart 
-// author AJIT KUMAR PANDIT     https://ajit-kumar-pandit.github.io/
-
-
-
 const foodJson = [
     {
       id: 1,
@@ -411,11 +407,20 @@ var foodhighestprotien = (foodJson) => {
 
 // () to list all the food items with lowest cab content to highest
 
-var foodlowestprotien = (foodJson) => {
-  z=foodJson.sort((a, b) => {return (a.protiens-b.protiens)});
-  const foodlowestprotien = z.map((foods) => foods.foodname);
-  return foodlowestprotien.join("<br>");
+var foodlowestcab = (foodJson) => {
+  z=foodJson.sort();
+  const foodlowestcab = z.map((foods) => foods.foodname);
+  return foodlowestcab.join("<br>");
 }
+
+// () to list all the food items with lowest cab content to highest
+
+var foodlowestcab = (foodJson) => {
+  z = foodJson.sort((a, b) => {return (a.cab - b.cab)});
+  const foodlowestcab = z.map((foods) => foods.foodname);
+  return foodlowestcab.join("<br>");
+}
+
 
 
 elementWithId = document.getElementById("1");
@@ -463,4 +468,4 @@ elementWithId10.innerHTML +=foodhighestprotien(foodJson);
 
 elementWithId11 = document.getElementById("11");
 elementWithId11.innerHTML="<br><h2>list all the food items with lowest cab content to highest</h2><br>";
-elementWithId11.innerHTML +=foodlowestprotien(foodJson);
+elementWithId11.innerHTML +=foodlowestcab(foodJson);
