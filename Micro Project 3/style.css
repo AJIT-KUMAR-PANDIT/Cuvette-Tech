@@ -42,6 +42,10 @@ box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 .item-0, .item-1, .item-2, .item-3, .item-4,.item-5,.item-6,.item-7,.item-8,.item-9,.item-10{
   width: 96%;
 }
+.container {
+  /* position: absolute; */
+  margin-top: 91px;
+}
 }
 
 .item-10{
