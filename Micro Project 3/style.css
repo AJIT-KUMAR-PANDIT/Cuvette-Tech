@@ -11,7 +11,8 @@ body{
 	flex-wrap: wrap;
   border: 3px solid tomato;
   height: 100%;
-  background-color: rgba(240, 255, 255, 0.723);
+  background-color: rgba(26, 36, 36, 0.927);
+  flex-flow: row wrap;
 }
 
 
@@ -31,6 +32,13 @@ body{
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+@media only screen and (max-device-width: 585px){
+  .item-0, .item-1, .item-2, .item-3, .item-4,.item-5,.item-6,.item-7,.item-8,.item-9,.item-10{
+    width: 96%;
+  }
+}
+
 
 .nav{
   position: fixed;
