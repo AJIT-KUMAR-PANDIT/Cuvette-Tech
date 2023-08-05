@@ -400,16 +400,22 @@ var foodcalorieBelow100=(foodJson)=>{
   return foodBelow100.join("<br>");
 }
 
-// () to list all the food items with highest protien content to lowest
+// () to list all the food items with highest protein content to lowest
 
 var foodhighestprotien = (foodJson) => {
-  foodJson.sort((a, b) => b.proteins - a.proteins);
-  const foodhighestprotein = foodJson.map((foods) => foods.foodname);
+  z=foodJson.sort((a, b) => {return (b.protiens - a.protiens)});
+  const foodhighestprotein = z.map((foods) => foods.foodname);
   return foodhighestprotein.join("<br>");
 }
 
 
-// () to
+// () to list all the food items with lowest cab content to highest
+
+var foodlowestprotien = (foodJson) => {
+  z=foodJson.sort((a, b) => {return (a.protiens-b.protiens)});
+  const foodlowestprotien = z.map((foods) => foods.foodname);
+  return foodlowestprotien.join("<br>");
+}
 
 
 elementWithId = document.getElementById("1");
@@ -455,6 +461,6 @@ elementWithId10 = document.getElementById("10");
 elementWithId10.innerHTML="<br><h2>list all the food items with highest protien content to lowest</h2><br>";
 elementWithId10.innerHTML +=foodhighestprotien(foodJson);
 
-// elementWithId11 = document.getElementById("11");
-// elementWithId11.innerHTML="<br><h2>list all the food items with calorie above 100</h2><br>";
-// elementWithId11.innerHTML +=foodcalorieabove100(foodJson);
+elementWithId11 = document.getElementById("11");
+elementWithId11.innerHTML="<br><h2>list all the food items with lowest cab content to highest</h2><br>";
+elementWithId11.innerHTML +=foodlowestprotien(foodJson);
