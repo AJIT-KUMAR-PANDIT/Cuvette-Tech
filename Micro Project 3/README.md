@@ -9,9 +9,6 @@ THIS is the Link of Micro Project 3 https://cuvettetech.netlify.app/micro%20proj
 
 ## question
 
-[Click here to view questions in notion](https://momentous-nerine-3a5.notion.site/Food-Chart-f37d30461e9249a2aefd8d7fd7a010af)
-
-https://momentous-nerine-3a5.notion.site/Food-Chart-f37d30461e9249a2aefd8d7fd7a010af
 
 # Food Chart
 
