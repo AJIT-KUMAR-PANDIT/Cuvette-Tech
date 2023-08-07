@@ -408,14 +408,6 @@ var foodhighestprotien = (foodJson) => {
 // () to list all the food items with lowest cab content to highest
 
 var foodlowestcab = (foodJson) => {
-  z=foodJson.sort();
-  const foodlowestcab = z.map((foods) => foods.foodname);
-  return foodlowestcab.join("<br>");
-}
-
-// () to list all the food items with lowest cab content to highest
-
-var foodlowestcab = (foodJson) => {
   z = foodJson.sort((a, b) => {return (a.cab - b.cab)});
   const foodlowestcab = z.map((foods) => foods.foodname);
   return foodlowestcab.join("<br>");
