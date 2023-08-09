@@ -24,8 +24,14 @@ body{
     line-height: normal;
 }
 
+.container-item1:hover{
+    color: white;
+}
+
+
 .container-item2{
     border-radius: 12px;
+    width: 100%;
     background-color: #181F32;
     color: #FFF;
     text-align: right;
@@ -38,7 +44,13 @@ body{
     line-height: normal;
 }
 
+.container-item2:hover{
+    background-color: rgba(13, 167, 57, 0.634);
+    color: white;
+}
+
 .container-item3{
+    width: 100%;
     border-radius: 12px;
     background-color: #252D44;
     display: block;
@@ -115,4 +127,8 @@ body{
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+}
+
+button:hover{
+    background-color: rgba(13, 167, 57, 0.634);
 }
