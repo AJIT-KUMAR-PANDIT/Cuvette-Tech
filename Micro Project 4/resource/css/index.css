@@ -24,6 +24,11 @@ body{
     line-height: normal;
 }
 
+.container-item1:hover{
+    color: white;
+}
+
+
 .container-item2{
     border-radius: 12px;
     width: 361px;
@@ -44,10 +49,6 @@ body{
     color: #FFF;
     border: 3px solid red;
 }
-
-#displayScreen::placeholder {
-    color: #FFF;
-  }
 
 .container-item3{
     width: 100%;
