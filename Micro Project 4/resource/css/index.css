@@ -3,8 +3,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
+    width: 97vw;
+    height: 97vh;
 }
 
 .container{
@@ -31,7 +31,7 @@ body{
 
 .container-item2{
     border-radius: 12px;
-    width: 100%;
+    width: 361px;
     background-color: #181F32;
     color: #FFF;
     text-align: right;
@@ -46,8 +46,13 @@ body{
 
 .container-item2:hover{
     background-color: rgba(13, 167, 57, 0.634);
-    color: white;
+    color: #FFF;
+    border: 3px solid red;
 }
+
+#displayScreen::placeholder {
+    color: #FFF;
+  }
 
 .container-item3{
     width: 100%;
@@ -131,4 +136,5 @@ body{
 
 button:hover{
     background-color: rgba(13, 167, 57, 0.634);
+    border: 3px solid red;
 }

@@ -6,12 +6,32 @@ let currentScreenValue = '';
   
   const equalsFunction = () => {
     try{
-        currentScreenValue = eval(currentScreenValue);
-        displayScreen.value = currentScreenValue;
+        if(currentScreenValue.includes("X")){
+            currentScreenValue = eval(multiply());
+            if(typeof currentScreenValue === 'number'){
+                displayScreen.value = currentScreenValue;
+            }
+            else{
+                displayScreen.value= "Error...";
+            }
+        }else{
+            currentScreenValue = eval(currentScreenValue);
+            if(typeof currentScreenValue === 'number'){
+                displayScreen.value = currentScreenValue;
+            }
+            else{
+                displayScreen.value= "Error...";
+            }
+        }
     }catch(error){
         displayScreen.value = "Error...";
     }
   };
+
+  const multiply = () =>{
+        let mul = (currentScreenValue.split('X').join('*'));
+        return mul;
+  }
   
   function display(value){
     currentScreenValue += value;
