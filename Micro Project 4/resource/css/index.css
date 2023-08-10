@@ -31,7 +31,7 @@ body{
 
 .container-item2{
     border-radius: 12px;
-    width: 361px;
+    width: 381px;
     background-color: #181F32;
     color: #FFF;
     text-align: right;
@@ -57,6 +57,7 @@ body{
     display: block;
     justify-content: space-around;
     align-items: center;
+    padding: 11px 11px 11px 11px;
 }
 
 .button-row1,.button-row2,.button-row3,.button-row4,.button-row5 {
