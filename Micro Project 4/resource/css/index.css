@@ -24,11 +24,6 @@ body{
     line-height: normal;
 }
 
-.container-item1:hover{
-    color: white;
-}
-
-
 .container-item2{
     border-radius: 12px;
     width: 361px;
