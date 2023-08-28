@@ -173,7 +173,7 @@ li {
 
 /* rules section end */
 
-/*  play ground start */
+/*  play ground  score pannelstart */
 
 .container-playground-main {
   display: flex;
@@ -186,15 +186,16 @@ li {
   flex-wrap: wrap;
   justify-content: center;
 
+  justify-content: space-between;
+  align-content: space-around;
+
   width: 60%;
-  height: 20%;
+  height: 30%;
 
   border-radius: 13px;
   border: 2px solid #fff;
   background: rgba(28, 48, 120, 0);
-}
-
-.item-game-play-area {
+  padding: 11px;
 }
 
 .item-banner {
@@ -234,6 +235,10 @@ li {
   font-weight: 600;
   line-height: normal;
   letter-spacing: 1.7px;
+
+  width: 169px;
+  flex-shrink: 0;
+  text-align: center;
 }
 
 .computer-score,
@@ -246,4 +251,88 @@ li {
   font-weight: 700;
   line-height: normal;
 }
-/* play ground end */
+
+/* play ground score pannel end */
+
+/* play ground start */
+
+.item-game-play-area {
+
+        transform: translateX(-10%) translateY(20%);
+        margin-bottom:69px;
+ min-height:360px;
+}
+
+.rock {
+        background-color: transparent;
+  background-image: url('../img/rock icons8-f.png'),url("../img/rock.svg");
+  background-repeat: no-repeat;
+
+  background-position: center center; /* Adjust the position as needed */
+  background-repeat: no-repeat, no-repeat;
+  background-size: fill, cover;
+
+
+  cursor: pointer;
+  border-color: transparent;
+  border-radius: 50%;
+  width: 149px;
+  height: 149px;
+  flex-shrink: 0;
+
+  position:relative;
+ left:7px;
+}
+
+.scissors {
+        background-color: transparent;
+  background-image: url('../img/scissorsi17911 1.png'),url("../img/scissors.svg");
+  background-repeat: no-repeat;
+
+  background-position: center center; /* Adjust the position as needed */
+  background-repeat: no-repeat, no-repeat;
+  background-size: fill, cover;
+
+
+  cursor: pointer;
+  border-color: transparent;
+  border-radius: 50%;
+  width: 149px;
+  height: 149px;
+  flex-shrink: 0;
+
+  position:relative;
+ left:-8px;
+}
+
+.paper {
+        background-color: transparent;
+  background-image: url('../img/paper icons8-hand-64 1.png'),url("../img/paper (2).svg");
+  background-repeat: no-repeat;
+
+  background-position: center center; /* Adjust the position as needed */
+  background-repeat: no-repeat, no-repeat;
+  background-size: fill, cover;
+
+
+
+  cursor: pointer;
+  border-color: transparent;
+  border-radius: 50%;
+  width: 149px;
+  height: 149px;
+  flex-shrink: 0;
+}
+
+.line1{
+
+        position:relative;
+        top:62px;
+        
+                width: 133px;
+                height: 15px;
+                background: rgba(0, 0, 0, 0.64);
+
+                top:-60px;
+}
+/* playground end */
