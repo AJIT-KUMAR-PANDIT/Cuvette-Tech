@@ -2,7 +2,7 @@ body {
   background-color: #8cc461;
   width: 100%;
   height: 100%;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 /* rules section start */
@@ -64,7 +64,7 @@ body {
   font-weight: 400;
   line-height: normal;
 
-  transform:translatex(-63px) translatey(-80px);
+  transform: translatex(-63px) translatey(-80px);
 }
 
 /* Styles for the overlay background */
@@ -80,29 +80,28 @@ body {
   height: 65px; */
   flex-shrink: 0;
 
-
   width: 50px;
-height: 50px;
-flex-shrink: 0;
+  height: 50px;
+  flex-shrink: 0;
 
   background-image: url("../img/ellipse-6.svg");
   background-repeat: no-repeat;
 
-  color: #FFF;
-font-family: Dangrek;
-font-size: 44px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  color: #fff;
+  font-family: Dangrek;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 
-display: flex;
+  display: flex;
   justify-content: center; /* Center text horizontally (X direction) */
   align-items: center;
 
-  transform:translatex(262px) translatey(-49px);
- margin-right:26px;
- width:59px;
- min-height:67px;
+  transform: translatex(262px) translatey(-49px);
+  margin-right: 26px;
+  width: 59px;
+  min-height: 67px;
 }
 
 .close {
@@ -115,46 +114,136 @@ display: flex;
   height: 65px; */
   flex-shrink: 0;
 
-
   width: 50px;
-height: 50px;
-flex-shrink: 0;
+  height: 50px;
+  flex-shrink: 0;
 
-  background-image: url('../img/X.svg'),url("../img/ellipse-6.svg");
+  background-image: url("../img/X.svg"), url("../img/ellipse-6.svg");
   background-position: center center; /* Adjust the position as needed */
   background-repeat: no-repeat, no-repeat;
-  background-size: , cover;
+  background-size: fill, cover;
 
-  color: #FFF;
-font-family: Dangrek;
-font-size: 44px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  color: #fff;
+  font-family: Dangrek;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 
-display: flex;
+  display: flex;
   justify-content: center; /* Center text horizontally (X direction) */
   align-items: center;
 
-  transform:translatex(262px) translatey(-49px);
- margin-right:26px;
- width:59px;
- min-height:67px;
+  transform: translatex(262px) translatey(-49px);
+  margin-right: 26px;
+  width: 59px;
+  min-height: 67px;
 }
 
-.rules-heading{
-        width: 156px;
-        height: 27px;
-        flex-shrink: 0;
-        color: #FFF;
-        font-family: Roboto;
-        font-size: 29px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-       text-align: center;
-        
+.rules-heading {
+  /* flex-shrink: 0; */
+  color: #fff;
+  font-family: Roboto;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+li {
+  list-style-image: url("../img/Rectangle 5.svg");
+}
+
+.rules-list {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  width: 216px;
+  height: 48px;
+  flex-shrink: 0;
 }
 
 /* rules section end */
 
+/*  play ground start */
+
+.container-playground-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item-score-pannel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  width: 60%;
+  height: 20%;
+
+  border-radius: 13px;
+  border: 2px solid #fff;
+  background: rgba(28, 48, 120, 0);
+}
+
+.item-game-play-area {
+}
+
+.item-banner {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 4px;
+}
+
+.item-computer-score {
+  border-radius: 9px;
+  background: #fff;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.item-your-score {
+  border-radius: 9px;
+  background: #fff;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.computer-score-banner,
+.your-score-banner {
+  color: #656565;
+  font-family: Roboto;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.7px;
+}
+
+.computer-score,
+.your-score {
+  color: #252525;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+/* play ground end */

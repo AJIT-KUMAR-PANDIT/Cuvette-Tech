@@ -7,6 +7,30 @@
     <link rel="stylesheet" href="resource/css/index.css" />
   </head>
   <body>
+    <div class="container-playground-main">
+      <div class="item-score-pannel">
+        <div class="item-banner">
+          ROCK <br />
+          PAPER <br />
+          SCISSORS
+        </div>
+        <div class="item-computer-score">
+          <div class="computer-score-banner">COMPUTER <br />SCORE</div>
+          <div class="computer-score">0</div>
+        </div>
+        <div class="item-your-score">
+          <div class="your-score-banner">
+            YOUR <br />
+            SCORE
+          </div>
+          <div class="your-score">0</div>
+        </div>
+      </div>
+      <div class="item-game-play-area"></div>
+    </div>
+
+    <!-- rules section -->
+
     <div id="openModalBtn" class="rules-but">
       <span class="rules-text"> RULES </span>
     </div>
@@ -14,10 +38,28 @@
     <div id="myModal" class="modal">
       <!-- Close button (X) -->
       <span class="close" id="closeModalBtn"></span>
-      <span class="rules-heading">Game Rules</span>  
-      <ul type="square">
-            <li></li>
-        </ul>
+      <br />
+      <span class="rules-heading">Game Rules</span>
+      <ul type="square" class="rules-list">
+        <br />
+        <li>Rock beats scissors, scissors beat paper, and paper beats rock.</li>
+        <br />
+        <li>
+          Agree ahead of time whether you’ll count off “rock, paper, scissors,
+          shoot” or just “rock, paper, scissors.”
+        </li>
+        <br />
+        <li>
+          Use rock, paper, scissors to settle minor decisions or simply play to
+          pass the time
+        </li>
+        <br />
+        <li>
+          If both players lay down the same hand, each player lays down another
+          hand
+        </li>
+        <br />
+      </ul>
     </div>
     <script src="resource/js/index.js"></script>
   </body>
