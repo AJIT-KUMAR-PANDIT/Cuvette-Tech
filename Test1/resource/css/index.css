@@ -64,7 +64,7 @@ body {
   font-weight: 400;
   line-height: normal;
 
-  transform: translateX(-5vw) translateY(-10vh);
+  transform:translatex(-63px) translatey(-80px);
 }
 
 /* Styles for the overlay background */
