@@ -4,7 +4,11 @@ body {
   height: 100%;
   overflow: hidden;
 }
-
+@media screen and (max-width: 495px) {
+       body{
+        overflow: scroll;
+       }
+}
 /* rules section start */
 
 .rules-text {
@@ -282,6 +286,7 @@ li {
 
   position:relative;
  left:7px;
+ z-index: 1;
 }
 
 .scissors {
@@ -303,6 +308,9 @@ li {
 
   position:relative;
  left:-8px;
+
+ transform:translatex(0px) translatey(-7px);
+ z-index: 1;
 }
 
 .paper {
@@ -322,6 +330,9 @@ li {
   width: 149px;
   height: 149px;
   flex-shrink: 0;
+
+  transform:translatex(69px) translatey(24px);
+  z-index: 1;
 }
 
 .line1{
@@ -333,6 +344,21 @@ li {
                 height: 15px;
                 background: rgba(0, 0, 0, 0.64);
 
+                z-index: -1;
                 top:-60px;
 }
+
+.line2{
+        display:inline-block;
+        transform:translatex(47px) translatey(-77px);
+        z-index: -1;
+}
+
+.line3{
+        display:inline-block;
+ transform:translatex(91px) translatey(-61px);
+ z-index: -1;
+}
+
+
 /* playground end */
