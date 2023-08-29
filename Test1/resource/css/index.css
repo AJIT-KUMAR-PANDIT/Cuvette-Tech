@@ -258,6 +258,16 @@ li {
     top: 12px;
   }
 }
+
+@media (max-width:572px){
+
+        /* Item game play area */
+        .container-playground-main .item-game-play-area{
+         position:relative;
+         left:48px;
+        }
+        
+       }
 /* play ground score pannel end */
 
 /* play ground start */
