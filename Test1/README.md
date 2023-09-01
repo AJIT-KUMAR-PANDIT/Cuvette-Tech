@@ -1,7 +1,7 @@
 
 # Cuvette Test 1 (Rock Paper Scissors in javascript)
 
-THIS is the Link of Micro Project 4 https://cuvettetech.netlify.app/micro%20project%204/
+THIS is the Link of Test 1 https://cuvettetech.netlify.app/test1/
 
 
 ![Logo](https://github.com/AJIT-KUMAR-PANDIT/Cuvette-Tech/blob/main/Test1/resource/img/test1.gif?raw=true)
