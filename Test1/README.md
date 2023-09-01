@@ -1,5 +1,5 @@
 
-# Cuvette Test 1 (Rock Paper Scissors in javascript)
+# Cuvette Test 1 (Rock, Paper, Scissors in javascript)
 
 THIS is the Link of Test 1 https://cuvettetech.netlify.app/test1/
 
